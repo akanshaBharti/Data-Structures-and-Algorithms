@@ -10,7 +10,7 @@ void insert(int arr[], int n, int x, int pos){
 }
 
 int main(){
-    int n;
+    int n; 
     cout<<"Enter no of elements in list: ";
     cin>>n;
     int arr[n];

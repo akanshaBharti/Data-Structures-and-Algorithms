@@ -4,9 +4,9 @@
 using namespace std;
 int main(){
     vector<int> v; 
-    // v.push_back(3); 
-    // v.push_back(2); 
-    // v.push_back(1); 
+    v.push_back(3); 
+    v.push_back(2); 
+    v.push_back(1); 
     for(int i=1; i<4; i++){  
         v.push_back(i); 
     } 
@@ -29,7 +29,7 @@ int main(){
     cout<<endl;
 
     v.pop_back();   //deleting last element
-    vector<int> v2(3,50);   //v2(size,element)
+    vector<int> v2(2,50);   //v2(size,element)
     cout<<"v2: "<<endl;
     for(auto element: v2){
         cout<<element<<" ";

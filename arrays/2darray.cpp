@@ -11,11 +11,13 @@ for(int i=0; i<n; i++)
        {cin>>arr[i][j];
         }
    }
+cout<<"2d arrray: "<<endl;
 for(int i=0; i<n; i++)
   { for(int j=0; j<m; j++)
-       {cout<<"elements of array are:  ";
+       {
         cout<<arr[i][j]<<"  ";
-        } cout<<endl;
+        }
+         cout<<endl;
    }
 return 0;
 }

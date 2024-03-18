@@ -7,7 +7,7 @@ int find(int arr[], int n, int key){
         }
     }
         return -1;
-    
+
 }
 int del(int arr[], int n, int key){
     int pos=find(arr, n, key);
@@ -26,7 +26,7 @@ int del(int arr[], int n, int key){
 int main(){
     int arr[]={1,2,3,4,5};
     int n=sizeof(arr)/sizeof(arr[0]);
-    int key=3;
+    int key=3;  //key=element
     cout<<"before deletiom: ";
     for(int i=0; i<n; i++){
         cout<<arr[i]<<" ";

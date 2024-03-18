@@ -12,7 +12,6 @@ int findSingle(int arr[],int n){
         for(int j=0; j<n; j++){
             if(arr[i]==arr[j]){
                 c++;
-                cout<<"c:"<<c<<endl;
             }
          }
         if(c==1){
@@ -23,7 +22,7 @@ int findSingle(int arr[],int n){
     }
 
 int main(){
-    int arr[]={1,2,2,3,3,1,4};
+    int arr[]={1,2,2,3,5,3,1,4, 7};
     int n=sizeof(arr)/sizeof(arr[0]);
     cout<<"single element "<<findSingle(arr,n);
     return 0;

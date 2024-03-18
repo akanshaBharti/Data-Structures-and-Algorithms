@@ -27,4 +27,4 @@ int main()
         cout << *ir << " ";
  
     return 0;
-}
+} 

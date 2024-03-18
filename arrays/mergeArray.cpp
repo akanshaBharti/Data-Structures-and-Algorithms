@@ -25,7 +25,7 @@ int main(){
     A3[k++]=A2[j++];
    }
 
-   sort(A3, A3+n1+n2);
+   sort(A3, A3+n1+n2);   //sort(array, length)
    cout<<"A3: ";
    for(int i=0; i<n1+n2; i++){
     cout<<A3[i]<<" ";

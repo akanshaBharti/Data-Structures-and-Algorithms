@@ -21,4 +21,4 @@ int main(){
     cout<<"max no: "<<maxNo<<" min no: "<<minNo;
   return 0;
 
-}
+}  
